@@ -11,6 +11,7 @@ import getVisibleExpenses from "./selectors/expenses";
 import { addExpense } from "./actions/expenses";
 import { setTextFilter } from "./actions/filters";
 
+console.log("Hello from Webpacker");
 const store = configureStore();
 const state = store.getState();
 const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
