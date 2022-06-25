@@ -12,12 +12,12 @@ exports[`Should render the ExpenseListItem given a sample expense 1`] = `
        
     </h3>
   </NavLink>
-  <label>
-     $2000000 
-    Created at: 0
-  </label>
-  <br />
-  <label />
+  <p>
+    $20,000.00
+    -
+    December 31st, 1969
+     
+  </p>
   <button
     onClick={[Function]}
   >
