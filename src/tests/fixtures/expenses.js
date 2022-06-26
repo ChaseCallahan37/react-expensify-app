@@ -24,4 +24,6 @@ const expenses = [
   },
 ];
 
+//Total: 2,000,600
+
 export default expenses;
